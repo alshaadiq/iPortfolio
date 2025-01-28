@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Lato",  system-ui, -apple-system, "Segoe UI", Lato, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", Barlow, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Barlow",  Barlow;
-  --nav-font: "Barlow",  Barlow;
+  --default-font: "Barlow",  system-ui, -apple-system, "Segoe UI", "Lato", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Barlow", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Lato",  Lato;
+  --nav-font: "Lato",  Lato;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -785,6 +785,7 @@ section,
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  font-size: 14px;
 }
 
 .resume .resume-item:last-child {
